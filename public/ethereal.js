@@ -1,7 +1,7 @@
 const audio = document.getElementById("audio");
 const playPauseBtn = document.getElementById("Soothing");
 const mameko = document.getElementById("mameko");
-const play = document.getElementById("mamekobtn");
+const play1 = document.getElementById("mamekobtn");
 const majogari = document.getElementById("majogari");
 const majogariBtn = document.getElementById("majogaribtn");
 const fila = document.getElementById("fila");
@@ -13,7 +13,7 @@ const pasBtn = document.getElementById("pasbtn");
 const btns = [
   { audio: pas, button: pasBtn },
   { audio: audio, button: playPauseBtn },
-  { audio: mameko, button: play },
+  { audio: mameko, button: play1 },
   { audio: majogari, button: majogariBtn },
   { audio: fila, button: filaBtn },
   { audio: rose, button: roseBtn },

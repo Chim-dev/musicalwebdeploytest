@@ -1,0 +1,630 @@
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ETHEREAL FOREST</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.cdnfonts.com/css/ethereal" rel="stylesheet" />
+  </head>
+  <body class="bg-[#ebd2ec]">
+    <div>
+      <div>
+        <div
+          class="mb-0 bg-cover h-full w-full bg-no-repeat"
+          style="background-image: url(assets/ethereal\ wallpaper.jpg)"
+        >
+          <nav class="backdrop-blur-md bg-white/20 rounded-md p-5 z-1000">
+            <div class="flex justify-between px-10 items-center">
+              <a href="" class="flex-shrink-0">
+                <h1
+                  class="font-bold uppercase text-[#f3eaee] hover:text-[#b66d8e] transition duration-200 ease-out"
+                >
+                  ethereal forest
+                </h1>
+              </a>
+
+              <div class="pr-1 cursor-pointer md:hidden" id="burger">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6 text-[#f3eaee]"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+              </div>
+              <div class="flex space-x-8 hidden md:block">
+                <a
+                  href=""
+                  class="text-[#f3eaee] uppercase hover:text-[#b66d8e] transition duration-200 ease-out"
+                  >home</a
+                >
+                <a
+                  href=""
+                  class="text-[#f3eaee] uppercase hover:text-[#b66d8e] transition duration-200 ease-out"
+                  >music</a
+                >
+                <a
+                  href=""
+                  class="text-[#f3eaee] uppercase hover:text-[#b66d8e] transition duration-200 ease-out"
+                  >genre</a
+                >
+                <a
+                  href="#about"
+                  class="text-[#f3eaee] uppercase hover:text-[#b66d8e] transition duration-200 ease-out"
+                  >about</a
+                >
+                <a
+                  href=""
+                  class="text-[#f3eaee] uppercase hover:text-[#b66d8e] transition duration-200 ease-out"
+                  >contacts</a
+                >
+              </div>
+            </div>
+          </nav>
+          <div class="flex flex-col items-center justify-center h-screen">
+            <div class="bg-white/10 p-8 rounded-2xl backdrop-blur-sm w-80">
+              <h1 class="text-4xl text-center font-serif">
+                welcome dear Traveler !
+              </h1>
+              <h2 class="text-center">to the forest</h2>
+              <h2 class="text-center">
+                the <span class="text-[#6f4562]">Ethereal </span>Forest
+              </h2>
+              <span class="text-center block mb-4"
+                >where something unlogical exists</span
+              >
+              <div class="flex justify-center">
+                <button
+                  onclick="location.href='#music'"
+                  id="section1"
+                  class="mt-4 p-2 bg-[#b66d8e] text-white rounded-md hover:bg-[#dc80a1] transition duration-200 ease-out"
+                >
+                  Embark Upon the Enchanted Path
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <main class="mt-0">
+          <div
+            class="bg-no-repeat w-auto h-auto bg-cover"
+            style="background: url(assets/ethereal\ section\ 4.jpg)"
+          >
+            <!-- new section here -->
+            <div class="rounded bg-black/25">
+              <div
+                class="flex items-center justify-center p-2 backdrop-blur-sm rounded-md bg-white/5"
+              >
+                <h4
+                  class="text-4xl flex justify-center font-bold text-[#f3eaee] p-5 cursor-default drop-shadow-2xl shadow-gray-500"
+                >
+                  About Ethereal Forest
+                </h4>
+              </div>
+              <div
+                class="flex flex-col md:flex-row items-center gap-8 px-12 py-12"
+              >
+                <div class="backdrop-blur-lg p-5 rounded-xl bg-neutral-500/10">
+                  <h1 class="text-3xl text-[#f3eaee] font-extrabold uppercase">
+                    Ethereal Forest
+                  </h1>
+                  <p class="text-[#f3eaee] mt-4 font-semibold">
+                    As you step onto the moss-covered path, a soft mist swirls
+                    around your feet, carrying whispers of the wind through
+                    towering ancient trees. Sunlight filters through the dense
+                    canopy, painting golden patterns on the ground as if the
+                    forest itself is welcoming you. Each step deeper into the
+                    woods reveals hidden wonders—crystal-clear streams singing
+                    their melodies, fireflies dancing like stars between the
+                    leaves, and the distant echo of an unknown yet familiar
+                    tune. The air is fresh, laced with the scent of pine and
+                    blooming wildflowers, and for the first time in a long
+                    while, you feel a profound sense of serenity. But Ethereal
+                    Forest is more than just a place—it’s a journey. A path that
+                    shifts with your thoughts, revealing the unknown yet guiding
+                    you where you need to be. Will you follow the whispers of
+                    the trees? Will you uncover the secrets that lie beneath the
+                    ancient roots? The journey is yours to take. Step forward,
+                    and let the forest lead the way.
+                  </p>
+                  <div class="flex items-center justify-start">
+                    <audio
+                      src="assets/[Lily+]_エルフの森-finale-(128k).m4a"
+                      id="audio"
+                    ></audio>
+                    <button
+                      id="Soothing"
+                      class="mt-4 px-6 py-2 bg-[#826d87] hover:bg-[#544265] duration-200 rounded-lg text-white font-semibold"
+                    >
+                      ▶ Soothing Voice
+                    </button>
+                  </div>
+                </div>
+                <div class="overflow-hidden rounded-xl" id="about">
+                  <img
+                    src="assets/ethereal section 4.jpg"
+                    alt="Ethereal Forest"
+                    class="rounded-md animation w-full"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-no-repeat w-auto h-auto bg-cover"
+            style="background: url(assets/ethereal\ section3.png)"
+            id="music"
+          >
+            <div
+              class="bg-white/5 backdrop-blur-sm p-0.5 rounded-3xl flex items-center justify-center"
+            >
+              <h4
+                class="text-4xl flex justify-center font-bold text-[#f3eaee] p-5 cursor-default drop-shadow-2xl"
+              >
+                Latest Favourite
+              </h4>
+            </div>
+            <div class="flex justify-end items-center px-3">
+              <a
+                href="music.html"
+                class="font-extrabold text-white hover:text-[#b66d8e] transition ease-out duration-150"
+                >Explore More ?</a
+              >
+            </div>
+            <div class="mt-1 grid md:grid-cols-4 gap-5 pb-5">
+              <!-- Cards Go Here -->
+              <div
+                class="bg-white/25 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl p-4 relative flex flex-col justify-between items-center"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=zgBFHHEhZL0&list=RDzgBFHHEhZL0&start_radio=1"
+                  target="_blank"
+                >
+                  <div class="flex justify-center overflow-hidden">
+                    <img
+                      src="assets/mamkeo.jpg"
+                      alt=""
+                      class="w-full h-auto md:h-42 object-cover animation"
+                    />
+                  </div>
+
+                  <div class="m-4">
+                    <span class="font-bold text-[#ecdfe0]"
+                      >[まめこ/mameko] re-rose (Japanese & English & 中文
+                      Subtitles)</span
+                    >
+                    <span class="block text-violet-700 font-semibold"
+                      >Artist [まめこ/mameko]</span
+                    >
+                  </div>
+                  <div
+                    class="bg-purple-300 bg-opacity-65 text-white text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-4"
+                  >
+                    <span>Ethereal</span>
+                  </div>
+                </a>
+                <div class="flex flex-col justify-end items-center">
+                  <audio
+                    src="assets/[まめこmameko] re-rose  (Japanese & English & 中文 Subtitles).mp3"
+                    id="mameko"
+                  ></audio>
+                  <button
+                    id="mamekobtn"
+                    class="mt-4 px-6 py-2 bg-[#826d87] hover:bg-[#544265] duration-200 rounded-lg text-white font-semibold flex flex-col justify-end"
+                  >
+                    ▶ Play
+                  </button>
+                </div>
+              </div>
+              <div
+                class="bg-white/25 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl p-4 relative hover:shadow-lg flex flex-col justify-between items-center" 
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=kM6cL8JddMM&list=RDzgBFHHEhZL0&index=2"
+                  target="_blank"
+                >
+                  <div class="flex justify-center overflow-hidden">
+                    <img
+                      src="assets/majogari.jpg"
+                      alt=""
+                      class="w-full h-auto md:h-42 object-cover animation"
+                    />
+                  </div>
+
+                  <div class="m-4">
+                    <span class="font-bold text-[#eaeaf3]">魔女狩り</span>
+                    <span class="block text-violet-700 font-semibold"
+                      >Artist [浮森 かや子]</span
+                    >
+                  </div>
+                  <div
+                    class="bg-purple-300 bg-opacity-65 text-white text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-4"
+                  >
+                    <span>Doujin</span>
+                  </div>
+                </a>
+                <div class="flex flex-col justify-end items-center">
+                  <audio src="assets/魔女狩り.mp3" id="majogari"></audio>
+                  <button
+                    id="majogaribtn"
+                    class="mt-4 px-6 py-2 bg-[#826d87] hover:bg-[#544265] duration-200 rounded-lg text-white font-semibold flex flex-col justify-end"
+                  >
+                    ▶ Play
+                  </button>
+                </div>
+              </div>
+              <div
+                class="bg-white/25 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl p-4 relative hover:shadow-lg flex flex-col justify-between items-center"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=JDW6k378HJk&list=RDzgBFHHEhZL0&index=8"
+                  target="_blank"
+                >
+                  <div class="flex justify-center overflow-hidden">
+                    <img
+                      src="assets/A.1.jpg"
+                      alt=""
+                      class="w-full h-auto md:h-42 object-cover animation"
+                    />
+                  </div>
+
+                  <div class="m-4">
+                    <span class="font-bold text-[#eaeaf3]"
+                      >[小鳥遊まこ] 雪花 -春待ちの精霊と冬焦がれの精霊-</span
+                    >
+                    <span class="block text-violet-700 font-semibold"
+                      >Artist [小鳥遊まこ]</span
+                    >
+                  </div>
+                  <div
+                    class="bg-purple-300 bg-opacity-65 text-white text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-4"
+                  >
+                    <span>Ethereal</span>
+                  </div>
+                </a>
+                <div class="flex flex-col justify-end items-center">
+                  <audio
+                    src="assets/[小鳥遊まこ] 雪花 -春待ちの精霊と冬焦がれの精霊-.mp3"
+                    id="fila"
+                  ></audio>
+                  <button
+                    id="filabtn"
+                    class="mt-4 px-6 py-2 bg-[#826d87] hover:bg-[#544265] duration-200 rounded-lg text-white font-semibold flex flex-col justify-end"
+                  >
+                    ▶ Play
+                  </button>
+                </div>
+              </div>
+              <div
+                class="bg-white/25 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl p-4 relative flex flex-col justify-between items-center"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=v64KD6wv2M0&list=RDzgBFHHEhZL0&index=9"
+                  target="_blank"
+                >
+                  <div class="flex justify-center overflow-hidden">
+                    <img
+                      src="assets/catharsis.jpg"
+                      alt=""
+                      class="w-full h-auto md:h-42 object-cover animation"
+                    />
+                  </div>
+
+                  <div class="m-4">
+                    <span class="font-bold text-[#eaeaf3]"
+                      >[Rose Panna] Catharsis] Catharsis</span
+                    >
+                    <span class="block text-violet-700 font-semibold p-3"
+                      >Artist [Rose Panna]</span
+                    >
+                  </div>
+                  <div
+                    class="bg-purple-300 bg-opacity-65 text-white text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-4"
+                  >
+                    <span>Ethereal</span>
+                  </div>
+                </a>
+                <div class="flex flex-col justify-end items-center">
+                  <audio
+                    src="assets/[Rose Panna] Catharsis.mp3"
+                    id="rose"
+                  ></audio>
+                  <button
+                    id="rosebtn"
+                    class="mt-4 px-6 py-2 bg-[#826d87] hover:bg-[#544265] duration-200 rounded-lg text-white font-semibold"
+                  >
+                    ▶ Play
+                  </button>
+                </div>
+              </div>
+              <div
+                class="bg-white/25 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl p-4 relative flex flex-col justify-between items-center"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=ZzATuprHEo8&list=RDzgBFHHEhZL0&index=24"
+                  target="_blank"
+                >
+                  <div class="flex justify-center overflow-hidden">
+                    <img
+                      src="assets/pas de chat.jpg"
+                      class="w-full h-auto md:h-42 object-cover animation"
+                    />
+                  </div>
+
+                  <div class="m-4">
+                    <span class="font-bold text-[#eaeaf3]"
+                      >[まめこx浮森かや子] Pas De Chat (Romanji & English
+                      Subtitles)</span
+                    >
+                    <span class="block text-violet-700 font-semibold"
+                      >Artist [まめこx浮森かや子]</span
+                    >
+                  </div>
+                  <div
+                    class="bg-purple-300 bg-opacity-65 text-white text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-4"
+                  >
+                    <span>Doujin Pop</span>
+                  </div>
+                </a>
+                <div class="flex justify-center items-start">
+                  <audio
+                    src="assets/[まめこx浮森かや子] Pas De Chat (Romanji & English Subtitles).mp3"
+                    id="pas"
+                  ></audio>
+                  <button
+                    id="pasbtn"
+                    class="mt-4 px-6 py-2 bg-[#826d87] hover:bg-[#544265] duration-200 rounded-lg text-white font-semibold"
+                  >
+                    ▶ Play
+                  </button>
+                </div>
+              </div>
+              <div
+                class="bg-white/25 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl p-4 relative hover:shadow-lg flex flex-col justify-between items-center"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=6LN808smnqA&list=TLPQMDIwMjIwMjWmhuKeO5B_rw&index=2"
+                  target="_blank"
+                >
+                  <div class="flex justify-center overflow-hidden">
+                    <img
+                      src="assets/jardin.jpg"
+                      alt=""
+                      class="w-full h-auto md:h-42 object-cover animation"
+                    />
+                  </div>
+
+                  <div class="m-4">
+                    <span class="font-bold text-[#eaeaf3]"
+                      >Yuria Miyazono (MUSIRISCA) - Jardin bavard</span
+                    >
+                    <span class="block text-violet-700 font-semibold"
+                      >Artist [Yuria Miyazono]</span
+                    >
+                  </div>
+                  <div
+                    class="bg-purple-300 bg-opacity-65 text-white text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-4"
+                  >
+                    <span>Ethereal</span>
+                  </div>
+                </a>
+                <div class="flex justify-center items-start">
+                    <audio
+                      src="assets/[まめこx浮森かや子] Pas De Chat (Romanji & English Subtitles).mp3"
+                      id="pas"
+                    ></audio>
+                    <button
+                      id="pasbtn"
+                      class="mt-4 px-6 py-2 bg-[#826d87] hover:bg-[#544265] duration-200 rounded-lg text-white font-semibold"
+                    >
+                      ▶ Play
+                    </button>
+                  </div>
+              </div>
+              <div
+                class="bg-white/25 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl p-4 relative hover:shadow-lg flex flex-col  justify-between items-center"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=RIkDbB3De_8"
+                  target="_blank"
+                >
+                  <div class="flex justify-center overflow-hidden">
+                    <img
+                      src="assets/Inori no Uta.jpg"
+                      alt=""
+                      class="w-full h-auto md:h-42 object-cover animation"
+                    />
+                  </div>
+
+                  <div class="m-4">
+                    <span class="font-bold text-[#eaeaf3]">祈りの唄</span>
+                    <span class="block text-violet-700 font-semibold"
+                      >Artist [大原ゆい子]</span
+                    >
+                  </div>
+                  <div
+                    class="bg-purple-300 bg-opacity-65 text-white text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-4"
+                  >
+                    <span>Ethnic</span>
+                  </div>
+                </a>
+                <div class="flex justify-center items-start">
+                    <audio
+                      src="assets/[まめこx浮森かや子] Pas De Chat (Romanji & English Subtitles).mp3"
+                      id="pas"
+                    ></audio>
+                    <button
+                      id="pasbtn"
+                      class="mt-4 px-6 py-2 bg-[#826d87] hover:bg-[#544265] duration-200 rounded-lg text-white font-semibold"
+                    >
+                      ▶ Play
+                    </button>
+                  </div>
+              </div>
+              <div
+                class="bg-white/25 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl p-4 relative hover:shadow-lg"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=2-rZrlslsLo"
+                  target="_blank"
+                >
+                  <div class="flex justify-center overflow-hidden">
+                    <img
+                      src="assets/Teegesellschaft of the Hexenzirkel.jpg"
+                      alt=""
+                      class="w-full h-auto md:h-42 object-cover animation"
+                    />
+                  </div>
+
+                  <div class="m-4">
+                    <span class="font-bold text-[#eaeaf3]"
+                      >Teegesellschaft of the Hexenzirkel</span
+                    >
+                    <span class="block text-violet-700 font-semibold"
+                      >Composer [ Arcangelo Chen (HOYO-MiX)]</span
+                    >
+                  </div>
+                  <div
+                    class="bg-purple-300 bg-opacity-65 text-white text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-4"
+                  >
+                    <span>Soundtrack</span>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="bg-white/25 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl p-4 relative hover:shadow-lg"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=SzqZHggFVBo&list=PLkeVQEgV08lZoyREEcJIrsCaXZMcRZfy_&index=6"
+                  target="_blank"
+                >
+                  <div class="flex justify-center overflow-hidden">
+                    <img
+                      src="assets/ellin.jpg"
+                      alt=""
+                      class="w-full h-auto md:h-42 object-cover animation"
+                    />
+                  </div>
+
+                  <div class="m-4">
+                    <span class="font-bold text-[#eaeaf3]"
+                      >[Ellin] 果てなき旅</span
+                    >
+                    <span class="block text-violet-700 font-bold"
+                      >Artist [Ellin]</span
+                    >
+                  </div>
+                  <div
+                    class="bg-purple-300 bg-opacity-65 text-white text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-4"
+                  >
+                    <span>Doujin</span>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="bg-white/25 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl p-4 relative hover:shadow-lg"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=-EX0xJ-Wch8"
+                  target="_blank"
+                >
+                  <div class="flex justify-center overflow-hidden">
+                    <img
+                      src="assets/fukurou.jpg"
+                      alt=""
+                      class="w-full h-auto md:h-42 object-cover animation"
+                    />
+                  </div>
+
+                  <div class="m-4">
+                    <span class="font-bold text-[#eaeaf3]"
+                      >フクロウ ～フクロウが知らせる客が来たと～</span
+                    >
+                    <span class="block text-violet-700 font-semibold"
+                      >Artist [KOKIA]</span
+                    >
+                  </div>
+                  <div
+                    class="bg-purple-300 bg-opacity-65 text-white text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-4"
+                  >
+                    <span>Ethereal</span>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="bg-white/25 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl p-4 relative hover:shadow-lg"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=3aGNNABJ8zo"
+                  target="_blank"
+                >
+                  <div class="flex justify-center overflow-hidden">
+                    <img
+                      src="assets/amafuwanshii.jpg"
+                      alt=""
+                      class="w-full h-auto md:h-42 object-cover animation"
+                    />
+                  </div>
+
+                  <div class="m-4">
+                    <span class="font-bold text-[#eaeaf3]"
+                      >あまふわんしぃ - ピピリヤミィリュの魔法</span
+                    >
+                    <span class="block text-violet-700 font-semibold"
+                      >Artist [あまふわんしぃ]</span
+                    >
+                  </div>
+                  <div
+                    class="bg-purple-300 bg-opacity-65 text-white text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-4"
+                  >
+                    <span>Doujin</span>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="bg-white/25 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl p-4 relative hover:shadow-lg"
+              >
+                <a
+                  href="https://www.youtube.com/watch?v=27L-Tt6V9ww&ab_channel=AinaKannazuki"
+                  target="_blank"
+                >
+                  <div class="flex justify-center overflow-hidden">
+                    <img
+                      src="assets/red moon.jpg"
+                      alt=""
+                      class="w-full h-auto md:h-42 object-cover animation"
+                    />
+                  </div>
+
+                  <div class="m-4">
+                    <span class="font-bold text-[#eaeaf3]"
+                      >レムルローズの魔女　「朱の月に唄う魔女」　歌詞付</span
+                    >
+                    <span class="block text-violet-700 font-semibold"
+                      >Artist [霜月はるか]</span
+                    >
+                  </div>
+                  <div
+                    class="bg-purple-300 bg-opacity-65 text-white text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-4"
+                  >
+                    <span>Doujin</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="ethereal.js"></script>
+  </body>
+</html>
